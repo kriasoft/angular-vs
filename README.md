@@ -15,7 +15,11 @@ This seed doesn't do much, just shows how to write two controllers and views tog
 
 Clone the angular-vs repository and start hacking...
 
-### TODO
+### Note
+
+This project doesn't use / depend on ASP.NET or ASP.NET MVC, just plain old HTML5, CSS and <del>JavaScript</del> [TypeScript](http://www.typescriptlang.org).
+
+### To-Do
 
  - Add angular.d.ts
  - Create some [Jasmine](http://pivotal.github.com/jasmine/)-based unit tests
