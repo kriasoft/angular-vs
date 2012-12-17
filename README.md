@@ -19,6 +19,8 @@ Clone the angular-vs repository and start hacking...
 
 This project doesn't use / depend on ASP.NET or ASP.NET MVC, just plain old HTML5, CSS and <del>JavaScript</del> [TypeScript](http://www.typescriptlang.org).
 
+Why TypeScript? Because it fits well in Visual Studio based development. Take a look at the recent website created with TypeScript - http://www.so.cl/  It has ~30'000 lines of client side code and developed much faster than what could be possible for this team if they were using JavaScript instead.
+
 ### To-Do
 
  - Add angular.d.ts
