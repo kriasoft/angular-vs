@@ -1,8 +1,8 @@
 ## AngularJS Web App Starter Kit for Visual Studio
 
-This project is an application skeleton for a simple AngularJS web app. You can use it to bootstrap you AngularJS web app projects in Visual Studio envirement.
+This project is an application skeleton for a simple AngularJS web app. You can use it to bootstrap you AngularJS web app projects in Visual Studio environment.
 
-This seed contains AngularJS libraries, test libraries and a bunch of scripts all preconfigured for instant web development gratification. Just clone the repo (or download the zip/tarball), open it in Visual Studio 2012 and your are ready to develop and test your web application.
+This seed contains AngularJS libraries, test libraries and a bunch of scripts all preconfigured for instant web development gratification. Just clone the repo (or download the zip/tarball), open it in Visual Studio 2012 and you are ready to develop and test your web application.
 
 This seed doesn't do much, just shows how to write two controllers and views together. You can check it out by running App project in Visual Studio.
 
