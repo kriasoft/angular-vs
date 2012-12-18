@@ -8,7 +8,7 @@ This seed doesn't do much, just shows how to write two controllers and views tog
 
 ### Prerequisites
 
- - [Visual Studio 2012](http://www.visualstudio.com) with extensions: [NuGet](http://www.nuget.org), [Web Extensions 2012](http://visualstudiogallery.msdn.microsoft.com/07d54d12-7133-4e15-becb-6f451ea3bea6), [TypeScript](http://www.typescriptlang.org)
+ - [Visual Studio 2012](http://www.visualstudio.com) with extensions: [NuGet](http://www.nuget.org), [Chutzpah Test Adapter](http://visualstudiogallery.msdn.microsoft.com/f8741f04-bae4-4900-81c7-7c9bfb9ed1fe), [Web Extensions 2012](http://visualstudiogallery.msdn.microsoft.com/07d54d12-7133-4e15-becb-6f451ea3bea6), [TypeScript](http://www.typescriptlang.org)
    *Hint: make sure that you have the latest version and updates for Visual Studio and required extensions installed*
 
 ### How to Get Started
