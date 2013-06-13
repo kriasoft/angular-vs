@@ -1,0 +1,22 @@
+﻿@using System.Web.Optimization
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="utf-8">
+    <title>AngularJS App</title>
+    @Styles.Render("~/css/app")
+</head>
+<body>
+    <img src="~/images/logo.png" alt="AngularJS App" />
+    <ul class="menu">
+        <li><a href="~/view1">view1</a></li>
+        <li><a href="~/view2">view2</a></li>
+    </ul>
+
+    <div ng-view></div>
+
+    <div>Angular seed app: v<span app-version></span></div>
+
+    @Scripts.RenderFormat("        <script src=\"{0}\"></script>", "~/js/angular", "~/js/app")
+</body>
+</html>
