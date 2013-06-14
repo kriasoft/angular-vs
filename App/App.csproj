@@ -464,12 +464,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Api\ValuesController.cs" />
-    <Compile Include="App_Code\HttpContextExtensions.cs" />
-    <Compile Include="App_Code\Routing\RouteCollectionExtension.cs" />
-    <Compile Include="App_Code\Routing\WebPagesRouteHandler.cs" />
+    <Compile Include="Core\HttpContextExtensions.cs" />
+    <Compile Include="Core\Routing\RouteCollectionExtension.cs" />
+    <Compile Include="Core\Routing\WebPagesRouteHandler.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Core\Validation\CustomBodyModelValidator.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

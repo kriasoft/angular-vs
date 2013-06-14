@@ -7,6 +7,9 @@
 namespace App
 {
     using System.Web.Http;
+    using System.Web.Http.Validation;
+
+    using App.Validation;
     using Newtonsoft.Json.Serialization;
 
     public static class WebApiConfig
@@ -29,6 +32,9 @@ namespace App
 
             // Use camel case for JSON data.
             config.Formatters.JsonFormatter.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
+
+            // Remove prefixes from ModelState keys
+            config.Services.Replace(typeof(IBodyModelValidator), new CustomBodyModelValidator(new DefaultBodyModelValidator()));
         }
     }
 }
