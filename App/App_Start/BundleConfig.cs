@@ -14,17 +14,17 @@ namespace App
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/js/angular", "//ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js")
-                .Include("~/scripts/angular.js"));
+                .Include("~/scripts/angular/angular.js"));
 
             bundles.Add(new ScriptBundle("~/js/app").Include(
-                "~/scripts/angular-ui-router.js",
-                "~/scripts/app/app.js",
-                "~/scripts/app/filters.js",
-                "~/scripts/app/services.js",
-                "~/scripts/app/directives.js",
-                "~/scripts/app/controllers.js"));
+                "~/scripts/angular/angular-ui-router.js",
+                "~/scripts/app.js",
+                "~/scripts/filters.js",
+                "~/scripts/services.js",
+                "~/scripts/directives.js",
+                "~/scripts/controllers.js"));
 
-            bundles.Add(new StyleBundle("~/css/app").Include("~/Styles/App.css"));
+            bundles.Add(new StyleBundle("~/css/app").Include("~/styles/app.css"));
         }
     }
 }
