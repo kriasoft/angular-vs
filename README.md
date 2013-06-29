@@ -1,4 +1,4 @@
-## AngularJS + ASP.NET Web Api - Starter Kit for VS2012
+## AngularJS + ASP.NET Web Api + TypeScript
 
 This project is an application skeleton for a simple AngularJS app. You can use it to bootstrap you AngularJS web
 application projects in Visual Studio environment.
