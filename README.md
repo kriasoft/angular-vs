@@ -10,7 +10,7 @@ you are ready to develop and test your web application.
 This seed doesn't do much, just shows how to write two controllers and views together. You can check it out by
 running App project in Visual Studio.
 
-![AngularJS + Web Api Single Page App (SPA) Starter Kit](http://i.imgur.com/NvR6uyz.png)
+![AngularJS + Web Api Single Page App (SPA) Starter Kit](http://i.imgur.com/ZttQhoA.png)
 
 ### Technologies
 
