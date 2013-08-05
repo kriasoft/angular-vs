@@ -94,8 +94,8 @@ publish/
 *.pubxml
 
 # NuGet Packages Directory
-## TODO: If you have NuGet Package Restore enabled, uncomment the next line
 [Pp]ackages/
+![Pp]ackages/Microsoft.Bcl.Build.1.0.7/tools/Microsoft.Bcl.Build.targets
 
 # Windows Azure Build Output
 csx
